@@ -19,8 +19,15 @@ Data Preprocessing
 Compiling, Training, and Evaluating the Model
 ---------------------------------------------
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+     * Initially, I used two layers, the first with 80 nodes and the second with 30 nodes. I used one activation function, relu, for both layers. Since we've transformed the data to binary outputs the relu activation function is the most appropriate choice. These achieved an accuracy score of 73%, rounded. To boost this accuracy score, I optimized the model by
 * Were you able to achieve the target model performance?
+     * Yes, with the optimization changes I was able to generate an accuracy score of 78%, which is higher than the acceptable criteria of 75%. 
 * What steps did you take in your attempts to increase model performance?
+     *
 
 # Summary: 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+
+# Resources and References
+* Chat GPT - https://chat.openai.com/
