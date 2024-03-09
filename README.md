@@ -31,15 +31,15 @@ Compiling, Training, and Evaluating the Model
      * Initially, I used two layers, the first with 80 nodes and the second with 30 nodes. I used one activation function, relu, for both layers. Since we've transformed the data to binary outputs the relu activation function is the most appropriate choice. For the output layer, I chose 1 node as it is a binary classifier model with only one output, ie was the funding application successful yes or no? The output layer activation of sigmoid was used since the model output is a binary classification between 0 and 1. These achieved an accuracy score of 73%, rounded.
 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/main/Resources/Initial_Model_Params.png" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Params.PNG">
 </p>
 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Scores.png" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Scores.PNG" width="200">
 </p>
      * To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Params.png" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Params.PNG" width="200">
 </p>
 
 * Were you able to achieve the target model performance?
