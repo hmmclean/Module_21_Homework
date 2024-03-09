@@ -10,10 +10,10 @@ Module 21 - Deep Learning Challenge
 * Starter_Code_Colab - jupyter notebook file, created in Google Colab, that contains the initial code for training the model.
 
 
-# Overview of the analysis: 
+# Overview of the Analysis
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. Using machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. 
 
-# Results: 
+# Results 
 Using bulleted lists and images to support your answers, address the following questions.
 
 Data Preprocessing
@@ -57,7 +57,7 @@ Compiling, Training, and Evaluating the Model
 </p>
      There are a few reasons that using the name as a feature would impact the model accuracy. The "name" column might contain valuable information related to the classification task that the model can learn from. For example, in certain contexts, names could be indicative of specific categories or classes. Or, the "name" column may be correlated with the target variable or other features in the dataset. Including correlated features can help the model capture more complex relationships within the data. Adding more features, especially those with meaningful information, can increase the model's complexity. Therefore, a more complex model may have the capacity to capture intricate patterns and nuances in the data, leading to improved performance.
 
-# Summary: 
+# Summary 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 In summary, the initial deep learning model achieved an accuracy score of 0.7284 with a loss of 0.5680, utilizing two layers with 80 and 30 nodes, respectively. The model excluded the name column from the original dataset. After optimization, the accuracy improved to 0.7896, and the loss decreased to 0.5509, employing three layers with 80, 45, and 35 nodes, respectively. The optimized model included the name column as a feature.
