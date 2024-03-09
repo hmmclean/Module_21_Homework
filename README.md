@@ -21,7 +21,7 @@ Data Preprocessing
 * What variable(s) are the target(s) for your model?
     * The targets are the successful applicants. Within the dataset, this column is labeled as IS_SUCCESSFUL. 
 * What variable(s) are the features for your model?
-    * The features are all the other columns in the dataset. This includes but is not limited to, application types, income, ask amount, affiliation, and classification. 
+    * The features are all the other columns in the dataset. This includes but is not limited to, application types, income, ask amount, affiliation, and classification etc. 
 * What variable(s) should be removed from the input data because they are neither targets nor features?
     * EIN and NAME columns can be removed as they are neither targets nor features. 
 
