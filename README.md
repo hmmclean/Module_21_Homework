@@ -5,6 +5,7 @@ Module 21 - Deep Learning Challenge
 * Models 
     * AlphabetSoupCharity - HDF5 file output created by initial training code. 
     * AlphabetSoupCharity_Optimization - HDF5 file output created by optimization code. 
+* Resources - folder containing the images for the analysis in the README file. 
 * AlphabetSoupCharity_Optimization - jupyter notebook file, created in Google Colab, that contains the code for optimizing the model.
 * README - contains final analysis.
 * Starter_Code_Colab - jupyter notebook file, created in Google Colab, that contains the initial code for training the model.
