@@ -35,25 +35,25 @@ Compiling, Training, and Evaluating the Model
 </p>
 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Scores.PNG" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Scores.PNG">
 </p>
      * To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Params.PNG" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Params.PNG">
 </p>
 
 * Were you able to achieve the target model performance?
      * Yes, with the optimization changes I was able to generate an accuracy score of 79% (rounded), which is higher than the acceptable criteria of 75%.
 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Scores.png" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Scores.PNG">
 </p>
 
 * What steps did you take in your attempts to increase model performance?
      * Initially, I added a third layer and changed the number of nodes for each layer to 80, 45, and 35 respectively. However, this did not seem to increase my accuracy score. So I reprocessed the data to include the name column, adding it as another feature, and then trained the model again, this time receiving an accuracy score of 79% (rounded). 
 
 <p align="center">
-<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Pre-processing_NAMES.png" width="200">
+<img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Pre-processing_NAMES.PNG">
 </p>
      There are a few reasons that using the name as a feature would impact the model accuracy. The "name" column might contain valuable information related to the classification task that the model can learn from. For example, in certain contexts, names could be indicative of specific categories or classes. Or, the "name" column may be correlated with the target variable or other features in the dataset. Including correlated features can help the model capture more complex relationships within the data. Adding more features, especially those with meaningful information, can increase the model's complexity. Therefore, a more complex model may have the capacity to capture intricate patterns and nuances in the data, leading to improved performance.
 
