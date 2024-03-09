@@ -1,6 +1,15 @@
 # Module_21_Homework
 Module 21 - Deep Learning Challenge
 
+## Navigation
+* Models 
+    * AlphabetSoupCharity - HDF5 file output created by initial training code. 
+    * AlphabetSoupCharity_Optimization - HDF5 file output created by optimization code. 
+* AlphabetSoupCharity_Optimization - jupyter notebook file, created in Google Colab, that contains the code for optimizing the model.
+* README - contains final analysis.
+* Starter_Code_Colab - jupyter notebook file, created in Google Colab, that contains the initial code for training the model.
+
+
 # Overview of the analysis: 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. Using machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. 
 
@@ -32,5 +41,5 @@ In summary, the initial deep learning model achieved an accuracy score of 0.7284
 
 While the accuracy surpassed the target of 75%, there is room for improvement. To enhance the model further, I recommend utilizing an automated model optimizer. This tool would systematically explore various activation functions, layer architectures, and node combinations, allowing for a more exhaustive search of the hyperparameter space. Automation can save time and resources compared to manual tuning, providing a more comprehensive exploration and potentially yielding a more accurate classification model.
 
-# Resources and References
+# References and Resources
 * Chat GPT - https://chat.openai.com/
