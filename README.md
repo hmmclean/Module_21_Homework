@@ -28,7 +28,8 @@ Data Preprocessing
 Compiling, Training, and Evaluating the Model
 ---------------------------------------------
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-     * Initially, I used two layers, the first with 80 nodes and the second with 30 nodes. I used one activation function, relu, for both layers. Since we've transformed the data to binary outputs the relu activation function is the most appropriate choice. For the output layer, I chose 1 node as it is a binary classifier model with only one output, ie was the funding application successful yes or no? The output layer activation of sigmoid was used since the model output is a binary classification between 0 and 1. These achieved an accuracy score of 73%, rounded. To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
+     * Initially, I used two layers, the first with 80 nodes and the second with 30 nodes. I used one activation function, relu, for both layers. Since we've transformed the data to binary outputs the relu activation function is the most appropriate choice. For the output layer, I chose 1 node as it is a binary classifier model with only one output, ie was the funding application successful yes or no? The output layer activation of sigmoid was used since the model output is a binary classification between 0 and 1. These achieved an accuracy score of 73%, rounded.
+     * To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
 * Were you able to achieve the target model performance?
      * Yes, with the optimization changes I was able to generate an accuracy score of 79% (rounded), which is higher than the acceptable criteria of 75%. 
 * What steps did you take in your attempts to increase model performance?
