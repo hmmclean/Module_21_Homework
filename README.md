@@ -37,7 +37,7 @@ Compiling, Training, and Evaluating the Model
 <p align="center">
 <img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Initial_Model_Scores.PNG">
 </p>
-     * To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
+       To boost this accuracy score, I optimized the model by adding an additional layer, adjusting the number of nodes, and leaving the name column as a feature. 
 <p align="center">
 <img src="https://github.com/hmmclean/Module_21_Homework/blob/main/Resources/Optimized_Model_Params.PNG">
 </p>
